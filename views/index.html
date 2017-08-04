@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.min.css">
+	<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+	<script type="text/javascript" src="./js/helper.js"></script>
+	<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=YN2BZ-LISWD-LB24A-PKMRC-2YRWT-F2BDT"></script>
+</head>
+<body>
+
+	<div class="container" id="header">
+			<div id="logo">
+				<p id="logo_span">陈恒鑫</p>
+			</div>
+			<div id="nav_buttons">
+				<ul>
+					<li>我的介绍</li>
+					<li>我的作品</li>
+					<li><a href="javascript:void(0);" onclick="show();">联系方式</a></li>
+				</ul>
+			</div>
+	</div>
+
+	<div class="container" id="body_one">
+		<div class="alert alert-danger alert-dismissable" id="emptymsg">
+			<button type="button" class="close" data-dismiss="alert"
+					aria-hidden="true">
+				&times;
+			</button>
+			请填完所有的题！！
+		</div>
+		<div class="alert alert-success alert-dismissable" id="mark">
+			<button type="button" class="close" data-dismiss="alert"
+					aria-hidden="true">
+				&times;
+			</button>
+		</div>
+		<div id="question">
+			<p>某五个数的平均值为60，如果将其中一数改为80，这五个数的平均值为70，改的这个数应是多少？</p><input type="text" id="answer1" class="answer1">
+		</div>
+		<div id="question">
+			<p>30个同学平分一些练习本，后来又来了6人，大家重新分配，每人分得的练习本比原来少2本，这些练习本共有多少？</p><input type="text" id="answer2" class="answer1">
+		</div>
+		<div id="question">
+			<p>甲乙两位同学带着同样多的钱去买日记本，乙买了8本，剩下的钱全部借给了甲，刚好使甲买到了12本。回家后甲还给乙6元，问：日记本每本多少钱？</p><input type="text" id="answer3" class="answer1">
+		</div>
+		<div id="question">
+			<p>两个仓库共有10000千克大米，从每个仓库里取出同样多的大米，结果甲仓库里剩下3450千克，乙仓库里剩下4270千克，每个仓库原来有多少千克大米？</p><input type="text" id="answer4" class="answer1">
+		</div>
+		<div id="question">
+			<p>把一个减法算式的被减数、减数、差加起来和是180，已知减数比差大26，减数是多少？</p><input type="text" id="answer5" class="answer1">
+		</div>
+		<div id="question">
+			<p>一个数乘8后比原数多了84，原来的数是多少？</p><input type="text" id="answer6" class="answer1">
+		</div>
+		<div id="question">
+			<p>小明今年18岁，小强今年14岁，多少年后,两人岁数和是70岁?</p><input type="text" id="answer7" class="answer1">
+		</div>
+		<div id="question">
+			<p>小明在算有余数的除法时，把被除数237错写成273。这样商比原来多3而余数正好相同。这道题的除数是多少？</p><input type="text" id="answer8" class="answer1">
+		</div>
+		<div id="question">
+			<p>学校图书馆有科技书和故事书共320本，其中故事书的本数是科技书的3倍 ，故事书有多少本？</p><input type="text" id="answer9" class='answer1'>
+		</div>
+		<button class="btn btn-info" onclick="check()">提交</button>
+		<button class="btn btn-warning" onclick="refresh()">重新再做</button>
+	</div>
+
+	<div class="container" id="body_two">
+
+	</div>
+
+	<div class="container" id="body_three">
+		<div id="left">
+
+		</div>
+		<div id="right">
+
+		</div>
+	</div>
+
+</body>
+</html>
